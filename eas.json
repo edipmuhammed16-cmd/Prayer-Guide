@@ -1,0 +1,10 @@
+{
+  "build": {
+    "production": {
+      "packageManager": "npm"
+    },
+    "preview": {
+      "packageManager": "npm"
+    }
+  }
+}
