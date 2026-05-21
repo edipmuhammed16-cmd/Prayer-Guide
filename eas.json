@@ -1,11 +1,17 @@
-
 {
+  "cli": {
+    "version": ">= 5.0.0"
+  },
   "build": {
-    "production": {
-      "packageManager": "npm"
-    },
     "preview": {
-      "packageManager": "npm"
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "aab"
+      }
     }
   }
-}
+}.
