@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 18
       - run: npm install
-      - run: npx expo install expo --check
+      - run: npm install expo@51.0.0 --save-exact
       - run: npx expo export --platform android --output-dir dist
       - uses: actions/upload-artifact@v4
         with:
